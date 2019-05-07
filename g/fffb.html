@@ -17,7 +17,7 @@
 
   
 
-  <title>Hello World | 磨叽熊猫游乐场</title>
+  <title>井字棋 | 磨叽熊猫游乐场</title>
 
   
 
@@ -89,14 +89,14 @@
 
     
     
-      <h1 class="header-title"><a href="/game/g/3eeb.html">Hello World</a></h1>
+      <h1 class="header-title"><a href="/game/g/fffb.html">井字棋</a></h1>
       <h2 class="header-subtitle">
         
           
           <!--
           
   <a href="javascript:;" class="article-date">
-    <time datetime="2019-04-06T05:38:44.191Z" itemprop="datePublished">2019-04-06 01:38:44</time>
+    <time datetime="2019-05-07T14:10:33.000Z" itemprop="datePublished">2019-05-07 10:10:33</time>
   </a>
 
           -->
@@ -117,24 +117,44 @@
     
 
     
+      <div class="content">
+        <canvas id="qrcode" src style="width:180px; display:flex; justify-content:center;"></canvas>
+        <script type="text/javascript">
+          var url = "https://cocosongying.github.io/h5/g/tictactoe.html";
+          var c=document.getElementById("qrcode");
+          var ctx=c.getContext("2d");
+          var qr=new Image();
+          qr.src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMYAAADGCAAAAACs8KCBAAACKklEQVR42u3ay5KCUAxFUf//p3HqgLruk4AluZtRlyCwHKTzer3wcXwc5JrPK8m3+FNahwwZMh7LOJZH7Zr0RTvPlSFDxj4MEgoJnrzc+ukkWMuQIUNG7XY8OJLAKkOGDBkdRlpq8lRShgwZMtYMUqDyBtz6DuTsjbW4DBkyHsjgQfP3f98y35AhQ8ajGEd4dF6rNshEbyVDhozRDB7g0gZZmhqm5bEMGTL2YXTK1PsWyNZDzZNPZMiQMZqBTuAEjl+fBvQAI0OGjKEMkt7xpnyncc9HmDJkyNiH0UnROmPI+Jdep5UyZMgYzSCBMr0dL4yvXRSTIUPGVEZnrEheq79gEaSGMmTIGMrgD+ONNl4M8wAdlMoyZMgYzUgHkGlaWWvbBeWrDBkyhjLSZhlv4vOU8cadERkyZIxjpK35tPTt/ChfPpEhQ8ZoRq1cTEMnXx1DEwyyryFDhoxBjNoKV7owkS5t8HB/sjMiQ4aMcYw0XUsHnOkg4YKkUIYMGdswCICng+myV3F4IEOGjM0Y/dY/Tx95fVqcvsqQIWMQIy0dOTI9W+yqyZAhYyjjCA/y3fS1Oj+TDBkydmBcNSXkIbsW3H807JQhQ8YfM3iDrNOH50sYQeHKE0QZMmSMYKRhtL9yUfsPgGpxGTJkbM/ojATS7wYrIDJkyJDRCKlp4ObXnBSxMmTIGM1IF7k4oHaf9M4yZMiYzUhLx9r4kDTaeELZmm/IkCHjSYw3+S7k8/d/Z50AAAAASUVORK5CYII=';
+          qr.onload = function() {
+            ctx.drawImage(qr,0,0,150,150);
+          }
+        </script>
+      </div>
+      <div class="article-entry">
+        <p>👆&nbsp;扫描上方二维码或直接传送&nbsp;👉<a href="https://cocosongying.github.io/h5/g/tictactoe.html" target="_blank" rel="noopener">传送门</a></p>
+      </div>
+    
 
     <div class="article-entry">
-      <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+      <h2 id="井字棋"><a href="#井字棋" class="headerlink" title="井字棋"></a><a href="https://cocosongying.github.io/h5/g/tictactoe.html" target="_blank" rel="noopener">井字棋</a></h2>
     </div>
 
     <div class="article-footer">
       
     </div>
 
+    
+      <! -- 添加捐赠图标 -->
+<div class="post-donate">
+    <div id="donate_board" class="donate_bar center">
+        <p style="margin:5px auto;"><a href="javascript:void(0)" onclick="document.getElementById('donateModal').style.display = 'block'" style="display:block;width:100px;padding:10px;background-color:#E74851;color:#fff;text-align:center;margin:0px auto;text-decoration:none;border-radius:10px;font-weight:bold;font-size:16px;transition: all 0.3s;">打赏</a></p>
+    </div>
+    <div id="donateModal" class="modal" style="display: none;position: fixed;z-index: 1000;margin-left:-160px;margin-top:-200px;padding: 10px;left: 50%;top: 50%;width: 320px;height: 380px;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.6);">
+        <img src="https://cocosongying.github.io/img/wechatpay.jpeg" id="myImg" width="298" height="298" style="border:1px solid #d3d3d3;margin-bottom: 12px;">
+        <p style="margin:5px auto;"><a href="javascript:void(0)" onclick="document.getElementById('donateModal').style.display='none'" style="display:block;width:100px;padding:10px;background-color:#E74851;color:#fff;text-align:center;margin:0px auto;text-decoration:none;border-radius:10px;font-weight:bold;font-size:16px;transition: all 0.3s;">关闭</a></p>
+    </div>
+</div>
+<! -- 添加捐赠图标 -->
     
 
     <div class="article-navs">
@@ -145,12 +165,21 @@
       <div class="card-item">
         <article>
           
-          <a class="card-link article-nav-link" href="/game/g/fffb.html"></a>
+          <a class="card-link article-nav-link" href="/game/g/1575.html"></a>
           <div class="article-nav-caption">Newer</div>
-          <div class="article-nav-title">井字棋</div>
+          <div class="article-nav-title">管道工</div>
         </article>
       </div>
     
+    
+      <div class="card-item">
+        <article>
+          
+          <a class="card-link article-nav-link" href="/game/g/3eeb.html"></a>
+          <div class="article-nav-caption">Older</div>
+          <div class="article-nav-title">Hello World</div>
+        </article>
+      </div>
     
   </div>
 </nav>
